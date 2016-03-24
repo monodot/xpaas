@@ -260,4 +260,15 @@
     </profile>
   </profiles>
   
+  <repositories>
+    <repository>
+      <id>fusesource</id>
+      <url>http://repo.fusesource.com/nexus/content/groups/public/</url>
+    </repository>
+    <repository>
+      <id>jboss</id>
+      <url>http://repository.jboss.org/nexus/content/groups/ea/</url>
+    </repository>
+  </repositories>  
+
 </project>
