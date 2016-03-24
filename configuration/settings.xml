@@ -102,19 +102,17 @@
     </profile>
     <profile>
       <id>local.nexus</id>
+
+	  <mirrors>
+	    <mirror>
+	      <id>Nexus</id>
+	      <name>Nexus Public Mirror</name>
+	      <url>http://vmhost:8081/nexus/content/repositories/central</url>
+	      <mirrorOf>central</mirrorOf>
+	    </mirror>
+	  </mirrors>
+
       <repositories>
-        <repository>
-          <id>central</id>
-          <name>Nexus Central</name>
-          <url>http://vmhost:8081/nexus/content/repositories/central</url>
-          <snapshots>
-            <enabled>false</enabled>
-          </snapshots>
-          <releases>
-            <enabled>true</enabled>
-            <updatePolicy>never</updatePolicy>
-          </releases>
-        </repository>
         <repository>
           <id>fusesource.m2</id>
           <name>FuseSource Community Release Repository</name>
