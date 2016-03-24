@@ -100,100 +100,10 @@
         </pluginRepository>
       </pluginRepositories>
     </profile>
-    <profile>
-      <id>local.nexus</id>
-
-	  <mirrors>
-	    <mirror>
-	      <id>Nexus</id>
-	      <name>Nexus Public Mirror</name>
-	      <url>http://vmhost:8081/nexus/content/repositories/central</url>
-	      <mirrorOf>central</mirrorOf>
-	    </mirror>
-	  </mirrors>
-
-      <repositories>
-        <repository>
-          <id>fusesource.m2</id>
-          <name>FuseSource Community Release Repository</name>
-          <url>http://vmhost:8081/nexus/content/repositories/fusesource-public</url>
-          <snapshots>
-            <enabled>false</enabled>
-          </snapshots>
-          <releases>
-            <enabled>true</enabled>
-            <updatePolicy>never</updatePolicy>
-          </releases>
-        </repository>
-        <repository>
-          <id>fusesource.ea</id>
-          <name>FuseSource Community Early Access Release Repository</name>
-          <url>http://vmhost:8081/nexus/content/repositories/fusesource-ea</url>
-          <snapshots>
-            <enabled>false</enabled>
-          </snapshots>
-          <releases>
-            <enabled>true</enabled>
-            <updatePolicy>never</updatePolicy>
-          </releases>
-        </repository>
-        <repository>
-          <id>redhat.ga</id>
-          <name>Red Hat General Availability Repository</name>
-          <url>http://vmhost:8081/nexus/content/repositories/redhat-ga</url>
-          <snapshots>
-            <enabled>false</enabled>
-          </snapshots>
-          <releases>
-            <enabled>true</enabled>
-            <updatePolicy>never</updatePolicy>
-          </releases>
-        </repository>
-      </repositories>
-      <pluginRepositories>
-        <pluginRepository>
-          <id>fusesource.m2</id>
-          <name>FuseSource Community Release Repository</name>
-          <url>http://vmhost:8081/nexus/content/repositories/fusesource-public</url>
-          <snapshots>
-            <enabled>false</enabled>
-          </snapshots>
-          <releases>
-            <enabled>true</enabled>
-            <updatePolicy>never</updatePolicy>
-          </releases>
-        </pluginRepository>
-        <pluginRepository>
-          <id>fusesource.ea</id>
-          <name>FuseSource Community Early Access Release Repository</name>
-          <url>http://vmhost:8081/nexus/content/repositories/fusesource-ea</url>
-          <snapshots>
-            <enabled>false</enabled>
-          </snapshots>
-          <releases>
-            <enabled>true</enabled>
-            <updatePolicy>never</updatePolicy>
-          </releases>
-        </pluginRepository>
-        <pluginRepository>
-          <id>redhat.ga</id>
-          <name>Red Hat General Availability Repository</name>
-          <url>http://vmhost:8081/nexus/content/repositories/redhat-ga</url>
-          <snapshots>
-            <enabled>false</enabled>
-          </snapshots>
-          <releases>
-            <enabled>true</enabled>
-            <updatePolicy>never</updatePolicy>
-          </releases>
-        </pluginRepository>
-      </pluginRepositories>
-    </profile>
   </profiles>
 
-
   <activeProfiles>
-    <activeProfile>local.nexus</activeProfile>
+    <activeProfile>fusesource.repo</activeProfile>
   </activeProfiles>
 
 </settings>
