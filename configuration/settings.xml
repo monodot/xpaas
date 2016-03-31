@@ -24,7 +24,7 @@
     <mirror>
       <id>Nexus</id>
       <name>Nexus Public Mirror</name>
-      <url>http://nexus:8081/nexus/content/repositories/central</url>
+      <url>http://nexus.cdk.vm:8081/nexus/content/repositories/central</url>
       <mirrorOf>central</mirrorOf>
     </mirror>
   </mirrors>
@@ -37,7 +37,7 @@
         <repository>
           <id>fusesource.m2</id>
           <name>FuseSource Community Release Repository</name>
-          <url>http://nexus:8081/nexus/content/repositories/fusesource-public/</url>
+          <url>http://nexus.cdk.vm:8081/nexus/content/repositories/fusesource-public/</url>
           <snapshots>
             <enabled>false</enabled>
           </snapshots>
@@ -49,7 +49,7 @@
         <repository>
           <id>fusesource.ea</id>
           <name>FuseSource Community Early Access Release Repository</name>
-          <url>http://nexus:8081/nexus/content/repositories/fusesource-ea/</url>
+          <url>http://nexus.cdk.vm:8081/nexus/content/repositories/fusesource-ea/</url>
           <snapshots>
             <enabled>false</enabled>
           </snapshots>
@@ -61,7 +61,7 @@
         <repository>
           <id>redhat.ga</id>
           <name>Red Hat General Availability Repository</name>
-          <url>http://nexus:8081/nexus/content/repositories/redhat-ga/</url>
+          <url>http://nexus.cdk.vm:8081/nexus/content/repositories/redhat-ga/</url>
           <snapshots>
             <enabled>false</enabled>
           </snapshots>
@@ -75,7 +75,7 @@
         <pluginRepository>
           <id>fusesource.m2</id>
           <name>FuseSource Community Release Repository</name>
-          <url>http://nexus:8081/nexus/content/repositories/fusesource-public/</url>
+          <url>http://nexus.cdk.vm:8081/nexus/content/repositories/fusesource-public/</url>
           <snapshots>
             <enabled>false</enabled>
           </snapshots>
@@ -87,7 +87,7 @@
         <pluginRepository>
           <id>fusesource.ea</id>
           <name>FuseSource Community Early Access Release Repository</name>
-          <url>http://nexus:8081/nexus/content/repositories/fusesource-ea/</url>
+          <url>http://nexus.cdk.vm:8081/nexus/content/repositories/fusesource-ea/</url>
           <snapshots>
             <enabled>false</enabled>
           </snapshots>
@@ -99,7 +99,7 @@
         <pluginRepository>
           <id>redhat.ga</id>
           <name>Red Hat General Availability Repository</name>
-          <url>http://nexus:8081/nexus/content/repositories/redhat-ga/</url>
+          <url>http://nexus.cdk.vm:8081/nexus/content/repositories/redhat-ga/</url>
           <snapshots>
             <enabled>false</enabled>
           </snapshots>
